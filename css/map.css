@@ -1,0 +1,67 @@
+
+#google-map
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+@media (min-width: 801px) {
+    #google-map
+    {
+        width: 75%;
+    }
+    #sidebar
+    {
+        float: right;
+        margin: 10px;
+        width: 20%;
+        position: relative;
+    }
+    #run-info
+    {
+        margin: 0 100%;
+    }
+    #sidebar > *
+    {
+        margin: 0 15px 0 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    #google-map
+    {
+        width: 100%;
+    }
+    #sidebar
+    {
+        float: right;
+        margin: 10px;
+        width: 100%;
+        position: relative;
+    }
+    #run-info > *, #sidebar > *
+    {
+        float: right;
+    }
+}
+
+
+#run-info
+{
+    text-align: right;
+    margin: 15px;
+}
+
+#run-info > *
+{
+    padding: 0 0.5em;
+}
+
+button
+{
+    color: black;
+    float: right;
+    display: none;
+}
